@@ -21,7 +21,7 @@ def add_student(name, grade)
   
   def sort
     sorted = {}
-    @toster.each do |grade, name|
+    @roster.each do |grade, name|
       sorted[grade] = name.sort 
   end
   sorted
